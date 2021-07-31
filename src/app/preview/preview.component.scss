@@ -1,0 +1,46 @@
+
+.row {
+    margin: 1em auto;
+    padding: 1em;
+    justify-content: center;
+}
+
+.rightside {
+    text-align: right;
+
+    a {
+        color: #0099ff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+}
+
+.details{
+    width: 50%;
+
+    .imagebox{
+        justify-content: center;
+        display: flex;
+
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    }
+
+    .form-group{
+        display: flex;
+        margin: 10px;
+
+        label{
+            width: 50%;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+}

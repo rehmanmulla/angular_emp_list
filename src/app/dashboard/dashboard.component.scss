@@ -1,0 +1,38 @@
+
+.row {
+  margin: 1em auto;
+  padding: 1em;
+}
+
+.rightside {
+  text-align: right;
+}
+
+.rightside a {
+  color: #0099ff;
+  text-decoration: none;
+}
+
+.rightside a:hover {
+  color: #fff;
+}
+
+.tableClass{
+  display: flex;
+  justify-content: left;
+
+  .table{
+    cursor: pointer;
+    width: 50%;
+
+    a{
+      color: #7b7b7b;
+      text-decoration: none;
+    }
+
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
